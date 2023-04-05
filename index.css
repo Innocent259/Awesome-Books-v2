@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .menu-wrap {
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .header-11 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .nav-bar {
+    display: flex;
+    border: solid green 2px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .brand {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+  }
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+  }
+  
+  .vertical-line {
+    width: 0;
+    height: 40px;
+    margin-left: 12px;
+    border: 1px solid #272727;
+  }
+  
+  .nav-link a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav-link a:active {
+    color: rgb(0, 255, 0);
+  }
+  
+  .added-book-section {
+    display: none;
+  }
+  
+  .show-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .first-section {
+    width: 70%;
+    border: 0.5px solid #ddd;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .book-holder {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .dynamic-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .odd {
+    background-color: #ddd;
+  }
+  
+  .even {
+    background-color: #fff;
+  }
+  
+  .author-paragraph {
+    display: flex;
+    gap: 2px;
+  }
+  
+  .dynamic-button {
+    float: right;
+    padding: 5px;
+  }
+  
+  hr {
+    width: 80px;
+    align-items: center;
+    border: 1px solid #ddd;
+    margin: auto;
+  }
+  
+  .add-book-section {
+    display: none;
+  }
+  
+  .show-add-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .awesome-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    width: 50%;
+  }
+  
+  .title {
+    font-size: larger;
+  }
+  
+  input {
+    width: 100%;
+    margin: auto;
+  }
+  
+  #add-button {
+    width: 20%;
+    align-self: flex-end;
+  }
+  
+  .contact {
+    display: none;
+  }
+  
+  .show-contact {
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+    justify-content: center;
+  }
+  
+  .contact-lists li {
+    list-style: none;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    height: 40px;
+    width: 100%;
+    border: 2px solid black;
+  }
+  
+  .copyright {
+    padding: 8px;
+  }

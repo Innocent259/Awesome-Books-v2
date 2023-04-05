@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Awesome Book App</title>
+</head>
+<body>
+    <header class="menu-wrap">
+        <nav class="nav-bar">
+         <a href="#" class="brand">Awesome Books</a>
+         <ul class="menu" id="header">
+             <li class="nav-link">
+                <a href="#" id="pop-list">List</a>
+                <hr class="vertical-line">
+            </li>
+             <li class="nav-link">
+                <a href="#" id="pop-added">Add new</a>
+                <hr class="vertical-line">
+            </li>
+             <li class="nav-link">
+                <a href="#" id="pop-contact">Contact</a>
+            </li>
+         </ul>
+        </nav>
+    </header>
+    <main id="main-main">
+        <section class="added-book-section" id="book-lists">
+            <h2>All awesome books</h2>
+            <div class="first-section">
+                <div id="book-list"></div>
+            </div>
+        </section>  
+        <section class="add-book-section">
+            <h3 class="title">Add a new book</h3>
+            <form class="awesome-form">
+                <input type="text" name="title" id="title" placeholder="Title" required>
+                <input type="text" name="auther" id="author" placeholder="Author" required>
+                <button type="submit" id="add-button">Add</button>
+            </form> 
+        </section>
+        <section class="contact">
+            <h1>Contact informations</h1>
+            <p>
+                Do you a question or you just want say "Hello"?
+                you can reach on us:
+            </p>
+            <ul class="contact-lists">
+                <li>our email: <a href="#">Gmail</a></li>
+                <li>our phone number: +223434</li>
+                <li>our address: KN 39 ST</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <h3 class="copyright">All rights reserved &copy;</h3>
+    </footer>  
+    <script src="index.js"></script>  
+</body>
+</html>
