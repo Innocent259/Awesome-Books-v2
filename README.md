@@ -46,7 +46,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://innocent259.github.io/Awesome-Books/)
+- [Live Demo Link](https://innocent259.github.io/Awesome-Books-v2/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,12 +60,12 @@ Installed node.js and any IDE like Visual Studio Code.
 ### Setup
 
 Clone this repository to your desired folder:
-git@github.com:wolterbwambale/Awesome-books.git
+git@github.com:Innocent259/Awesome-Books-v2.git
 
 Change directory Awesome-books in your terminal
 ### Install
 
-Install this project with: git@github.com:Innocent259/Awesome-Books.git
+Install this project with:
 
 Run npm install --save to install dependencies of this project.
 
