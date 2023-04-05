@@ -46,7 +46,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://wolterbwambale.github.io/Awesome-books/)
+- [Live Demo Link](https://innocent259.github.io/Awesome-Books/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,7 +65,7 @@ git@github.com:wolterbwambale/Awesome-books.git
 Change directory Awesome-books in your terminal
 ### Install
 
-Install this project with: 
+Install this project with: git@github.com:Innocent259/Awesome-Books.git
 
 Run npm install --save to install dependencies of this project.
 
@@ -80,16 +80,6 @@ Click on bottom menu icon Go Live to see the project.
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Wolter Bwambale**
-
-- GitHub: [@Bwambale](https://github.com/Innocent259)
-- LinkedIn: [Bwambale](https://www.linkedin.com/in/bwambale-benny-wolter-a9284925a/)
-
-👤 **Jesse Kayigire**
-
-- GitHub: [@Jesse](https://github.com/Jessekay)
-- LinkedIn: [Jesse Kayigire](https://www.linkedin.com/in/kayigire/)
-
 👤 **Innocent Ndahimana**
 
 - GitHub: [@innocent259](https://github.com/Innocent259)
@@ -100,7 +90,6 @@ Click on bottom menu icon Go Live to see the project.
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[CSS feature]**
-- [ ] **[Local storage feature]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -119,8 +108,8 @@ Give a star if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-We would like to thank Microverse for allowing us to work on this project 
-It's a good experience, we can't express how we feel after learning and implementing what we learned in this Awesome Books project.
+I would like to thank Microverse for allowing me to work on this project 
+It's a good experience, I can't express how I feel after learning and implementing what I learned in this Awesome Books project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

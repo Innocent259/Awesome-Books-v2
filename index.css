@@ -181,3 +181,13 @@
   .copyright {
     padding: 8px;
   }
+  
+  .time {
+    float: right;
+    padding: 10px;
+    background-color: #ddd;
+    width: 20%;
+    margin-right: 30px;
+    border-radius: 5px;
+  }
+  
