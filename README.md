@@ -46,7 +46,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://innocent259.github.io/Awesome-Books-v2/)
+- [Live Demo](https://innocent259.github.io/Awesome-Books-v2/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
