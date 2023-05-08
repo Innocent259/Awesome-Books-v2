@@ -51,6 +51,7 @@ class Library {
         </div>
         `;
       const removeButton = document.createElement('button');
+      removeButton.classList.add("remove-btn");
       removeButton.textContent = 'Remove';
       removeButton.addEventListener('click', () => {
         this.removeBookFromCollection(book.title, book.author);
