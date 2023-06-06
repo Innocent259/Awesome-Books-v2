@@ -1,5 +1,12 @@
 import { loadBooksFromStorage, saveBooksToStorage } from './storage.js';
-import { displayBooks, addBook, removeBook, showAddSection, showListSection, showContactSection } from './bookUtilits.js';
+import {
+  displayBooks,
+  addBook,
+  removeBook,
+  showAddSection,
+  showListSection,
+  showContactSection,
+} from './bookUtilits.js';
 
 class BookCollection {
   constructor() {
@@ -31,27 +38,52 @@ class BookCollection {
   }
 
   displayBooks() {
-    displayBooks(this.booksCollection, this.removeBook.bind(this));
+    displayBooks(
+      this.booksCollection,
+      this.removeBook.bind(this),
+    );
   }
 
   addBook(event) {
-    addBook(event, this.booksCollection, this.displayBooks.bind(this), this.saveBooksToStorage.bind(this));
+    addBook(
+      event,
+      this.booksCollection,
+      this.displayBooks.bind(this),
+      this.saveBooksToStorage.bind(this),
+    );
   }
 
   removeBook(index) {
-    removeBook(index, this.booksCollection, this.displayBooks.bind(this), this.saveBooksToStorage.bind(this));
+    removeBook(
+      index,
+      this.booksCollection,
+      this.displayBooks.bind(this),
+      this.saveBooksToStorage.bind(this),
+    );
   }
 
   showAddSection() {
-    showAddSection(this.addSection, this.listSection, this.contactSection);
+    showAddSection(
+      this.addSection,
+      this.listSection,
+      this.contactSection,
+    );
   }
 
   showListSection() {
-    showListSection(this.addSection, this.listSection, this.contactSection);
+    showListSection(
+      this.addSection,
+      this.listSection,
+      this.contactSection,
+    );
   }
 
   showContactSection() {
-    showContactSection(this.addSection, this.listSection, this.contactSection);
+    showContactSection(
+      this.addSection,
+      this.listSection,
+      this.contactSection,
+    );
   }
 }
 
